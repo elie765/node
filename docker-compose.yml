@@ -5,8 +5,8 @@ services:
       dockerfile: Dockerfile
     restart: unless-stopped
     ports:
-      - "8545:8545" # RPC
-      - "8546:8546" # websocket
+      - "8547:8545" # RPC
+      - "8548:8546" # websocket
       - "7301:6060" # metrics
       - "30303:30303" # P2P TCP
       - "30303:30303/udp" # P2P UDP
